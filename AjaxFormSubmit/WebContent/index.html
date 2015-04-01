@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validador</title>
+    <script src="programa.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <h1>Formulario de solicitud de datos</h1><br/><br/>
+    <form action="Validador">
+    <table>
+      <tr><td>Nombre:</td><td><input type="text" name="txtnombre"/></td></tr>
+      <tr><td>Apellido:</td><td><input type="text" name="txtapellido"/></td></tr> 
+      <tr><td>Email:</td><td><input type="text" name="txtemail"/></td></tr> 
+      <tr><td>Ciudad:</td><td><input type="text" name="txtciudad"/></td></tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="button" name="btnvalidar" 
+             onclick="validar();" value="Procesar"/>
+        </td>
+      </tr>
+    </table>
+    </form><br/><br/>
+    <div id="resultado"></div>          
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>TestServlet</display-name>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	<!-- Declaro la existencia de este servlet -->
+	<servlet>
+		<servlet-name>elServlet</servlet-name>
+		<servlet-class>com.curso.javascriptmvc.servlet.MiServlet</servlet-class>
+	</servlet>
+
+	<!-- Especifico un mapping para sabeer a que peticiones debe responder -->
+	<servlet-mapping>
+		<servlet-name>elServlet</servlet-name>
+		<url-pattern>/MiServlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>

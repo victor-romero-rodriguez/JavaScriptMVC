@@ -1,0 +1,32 @@
+{
+  "producto": [
+    {
+      "id": 1,
+      "nombre": "Secador XJ-2000",
+      "color": "Negro",
+      "precio": 29.99,
+      "enStock": true
+    },
+    {
+      "id": 2,
+      "nombre": "Plancha Style Pro",
+      "color": "Blanco",
+      "precio": 24.15,
+      "enStock": true
+    },
+    {
+      "id": 3,
+      "nombre": "Torno de u\u00f1as RRT",
+      "color": "Blanco",
+      "precio": 32.00,
+      "enStock": false
+    },
+    {
+      "id": 4,
+      "nombre": "Plancha Baby liss",
+      "color": "Rojo",
+      "precio": 26.99,
+      "enStock": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<table> 
+  <tr>
+    <th>Producto</th>
+    <th>Color</th>
+    <th>Precio</th>
+    <th>Comprar</th>
+  </tr>
+ 
+  {{#producto}}
+  <tr>
+    <td>{{nombre}}</td>
+    <td>{{color}}</td>
+    <td>{{#formato2dec}}{{precio}}{{/formato2dec}}&euro;</td>
+    {{#enStock}}<td><a href="#/productId={{id}}">Comprar ahora!</a></td>{{/enStock}}
+    {{^enStock}}<td>Sin stock</td>{{/enStock}}
+  </tr>
+  {{/producto}} 
+</table>

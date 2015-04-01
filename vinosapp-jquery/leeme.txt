@@ -1,0 +1,17 @@
+Esta aplicación muestra cómo construir una API RESTful usando Java y la librería Jersey. El API se consume mediante jQuery.
+
+Configuración:
+
+1. Crear una base de datos MySQL llamada "vinosdb":
+
+	create database vinosdb;
+
+2. Ejecutar el fichero vinos.sql para crear y rellenar la tabla 'vinos'. Para ello abrimos una consola en el directorio donde se encuentra el fichero vinos.sql y ejecutamos el siguiente comando:
+
+	mysql vinosdb -uroot --password=root < vinos.sql
+
+3. Importar el proyecto a Eclipse.
+
+4. Abrir el fichero vinos.properties y ajustar la cadena de conexion JDBC según corresponda a la configuración de nuestra BD.
+
+5. Ejecutar el proyecto.

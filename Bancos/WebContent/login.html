@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>	
+	<meta charset="utf-8">	
+	<title>TuBanco - Pantalla de login</title>
+	<style>	
+		body { 
+			color:#333; 
+			background:#ccc; 
+			padding:40px 20px 20px 20px; 
+			text-align: center; 
+			font: 10px Verdana, Arial, Helvetica, sans-serif;
+		}
+		#wrap { background: #f2f2e6; margin: 0 auto 0 auto; width: 490px; border: 1px solid black;}
+		form { padding: 25px;}
+		fieldset { padding: 25px 5px 25px 5px;}
+		#msj {color: blue; padding: 10px 0px 10px 0px; font: 12px Verdana, Arial, Helvetica, sans-serif;}		
+	</style>
+</head>
+<body>
+	<div id="wrap">
+    <h1>TuBanco</h1>
+    <hr/>	
+    <h2>Login</h2> 
+    <div id="msj"></div>
+	<form>
+		<fieldset>
+			<legend>Introduce tu login y password</legend>
+			<label for="login">Login&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" id="login" name="login" /><br/><br/>
+			<label for="pwd">Password</label>
+			<input type="password" id="pwd" name="pwd" /><br/><br/>
+			<input type="button" id="btn_enviar" value="Enviar" onclick="enviar()"/>
+		</fieldset>
+	</form>	
+	</div>
+	<script type='text/javascript' src='jquery-1.11.2.min.js'></script>
+	<script type='text/javascript' src='login.js'></script>
+</body>
+</html>

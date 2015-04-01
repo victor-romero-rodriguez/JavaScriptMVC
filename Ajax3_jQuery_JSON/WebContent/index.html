@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Libros</title>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="tabla.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="programa.js"></script>
+</head>
+<body>
+	<div class="container col-sm-3 col-md-6">
+
+		<h2>Informaci&oacute;n sobre libros</h2>
+
+		<img src="libros.jpg" class="img-responsive" alt="libros" width="125"
+			height="109">
+
+		<form role="form">
+			<div class="form-group">
+				<label for="titulo">Elija título del libro:</label> <select
+					id="titulo" class="form-control" onchange="buscarComentario();">
+					<option>- Seleccione título -</option>
+					<option value="0">Así hablo Zarathustra</option>
+					<option value="1">El sí de las niñas</option>
+					<option value="2">Seguridad informática para empresas</option>
+					<option value="3">J2EE</option>
+				</select>
+			</div>
+		</form>
+
+		<br />
+
+		<div id="comentario" class="comentario">Sin comentario</div>
+	</div>
+</body>
+</html>

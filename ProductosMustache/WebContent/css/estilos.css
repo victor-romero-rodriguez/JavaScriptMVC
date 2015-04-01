@@ -1,0 +1,23 @@
+table {
+	width: 100%;
+	border-spacing: 1px;
+	border: none;
+}
+th {
+	text-align: left;
+	background-color: #EFEFD7;
+	color: #000000;
+	font-weight: bold;
+	padding: 4px;
+}
+td {
+	text-align: left;
+	background-color: #F7F7E6;
+	color: #000000;
+	font-weight: normal;
+	padding: 4px;
+}
+button {
+	margin-bottom: 20px;
+}
+

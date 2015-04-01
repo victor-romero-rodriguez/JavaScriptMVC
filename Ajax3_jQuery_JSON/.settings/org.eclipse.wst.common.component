@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Ajax3_jQuery_JSON">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="/Ajax3_jQuery_JSON/build/classes"/>
+        <property name="context-root" value="Ajax3_jQuery_JSON"/>
+    </wb-module>
+</project-modules>
